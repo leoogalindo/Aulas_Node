@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    background-color: rgb(241, 57, 57);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: rgb(236, 176, 176);
+    color: black;
+}
+
+div{
+    background-color: rgb(211, 244, 248);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+div.buttons{
+    display: flex;
+}
